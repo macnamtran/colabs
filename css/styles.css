@@ -1,5 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .padding-default {
@@ -95,6 +97,14 @@ body {
   margin: 20px;
 }
 
+@media (max-width: 1028px) {
+  .carousel-item {
+    height: 400px;
+  }
+  .quote-text {
+    height: 200px;
+  }
+}
 /* About */
 
 #about {
@@ -126,13 +136,13 @@ body {
   .about-text-left {
     padding: 2rem 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
   }
   .about-text-right {
     padding: 2rem 0;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 300;
   }
   .about-picture-left {
